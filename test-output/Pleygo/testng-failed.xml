@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pleygo]">
+  <test name="First test(failed)">
+    <classes>
+      <class name="TestCases.TestGift_25">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestGift_25 -->
+      <class name="TestCases.TestSignup">
+        <methods>
+          <include name="Testsignup1"/>
+        </methods>
+      </class> <!-- TestCases.TestSignup -->
+    </classes>
+  </test> <!-- First test(failed) -->
+  <test name="Second test(failed)">
+    <classes>
+      <class name="TestCases.TestGift_25">
+        <methods>
+          <include name="TestgiftExistingToExisting"/>
+          <include name="TestExistingToExisting_Login"/>
+          <include name="TestgiftNewToNew"/>
+          <include name="TestgiftExistingToNew"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TestNewToExisting"/>
+          <include name="TestExistingToNew_Login"/>
+        </methods>
+      </class> <!-- TestCases.TestGift_25 -->
+    </classes>
+  </test> <!-- Second test(failed) -->
+</suite> <!-- Failed suite [Pleygo] -->
