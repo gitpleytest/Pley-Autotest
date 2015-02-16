@@ -8,7 +8,7 @@
     <property environment="env"/>
     
     <property name="ws.home" value="${basedir}"/>
-	<property name="ws.jars" value="E:\softwares\jars\selenium-java-2.42.2\selenium-2.42.2"/>
+	<property name="ws.jars" value="E:\softwares\jars\selenium-2.44.0"/>
     <property name="test.dest" value="${ws.home}/build"/>
     <property name="test.src" value="${ws.home}/src"/>
 	<property name="ng.result" value="test-output"/>
