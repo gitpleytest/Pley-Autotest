@@ -6,8 +6,8 @@
       <class name="TestCases.TestRandom">
         <methods>
           <include name="TestExistingToExisting_Login"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- TestCases.TestRandom -->
     </classes>
